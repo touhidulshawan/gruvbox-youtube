@@ -1,0 +1,10 @@
+#+title: Gruvbox Theme For YouTube
+
+
+[[https://github.com/touhidulshawan/dotfiles/blob/main/.screenshots/gruvbox-youtube.png]]
+
+Gruvbox Dark theme for [[http://www.youtube.com][YouTube]] based on [[https://github.com/morhetz/gruvbox][morhetz]] gruvbox colorscheme
+
+** Installation
++ First install stylus extension for [[https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne][Chrome]], [[https://addons.mozilla.org/pt-BR/firefox/addon/styl-us/][Firefox]]
++ Click to install 📦 [[https://userstyles.world/api/style/7261.user.css][Gruvbox-youtube]]
