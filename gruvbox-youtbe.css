@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Gruvbox For Youtube
 @namespace      github.com/touhidulshawan/gruvbox-youtube
-@version        1.0.0
+@version        1.0.1
 @description    A gruvbox theme for Youtube
 @license        MIT
 ==/UserStyle== */
@@ -39,14 +39,14 @@
     --yt-spec-text-secondary: var(--comment);
     --yt-spec-text-disabled: var(--comment);
     --yt-spec-call-to-action: var(--orange);
-    --yt-spec-icon-active-other: var(--purple);
+    --yt-spec-icon-active-other: var(--yellow);
     --yt-spec-icon-inactive: var(--inactive);
     --yt-spec-icon-disabled: var(--comment);
     --yt-spec-badge-chip-background: var(--background-secondary);
     --yt-spec-verified-badge-background: var(--blue);
     --yt-spec-suggested-action: var(--background-tertiary);
     --yt-spec-button-chip-background-hover: var(--selection);
-    --yt-spec-touch-response: var(--background-secondary);
+    --yt-spec-touch-response: var(--foreground);
     --yt-spec-paper-tab-ink: var(--pink);
     --yt-spec-filled-button-text: var(--orange);
     --yt-spec-call-to-action-inverse: var(--cyan);
@@ -66,6 +66,31 @@
     --yt-spec-themed-blue: var(--blue);
     --yt-spec-themed-green: var(--green);
     --yt-spec-themed-overlay-background: var(--background-tertiary);
+    --yt-spec-base-background: var(--background-primary);
+    --ytd-searchbox-background: var(--background-secondary);
+    --ytd-searchbox-legacy-border-color: var(--cyan);
+    --ytd-searchbox-legacy-button-border-color: var(--cyan);
+    --ytd-searchbox-legacy-button-color: var(--blue);
+  }
+
+  #container.ytd-searchbox:hover,
+  #container.ytd-searchbox:focus {
+    border: 2px solid var(--blue);
+  }
+
+  #search-icon-legacy.ytd-searchbox {
+    border-radius: 0;
+  }
+  #search-icon-legacy.ytd-searchbox:hover,
+  #search-icon-legacy.ytd-searchbox:focus {
+    background: var(--purple);
+    border: 2px solid var(--purple);
+  }
+  ytd-searchbox[system-icons]
+    #search-icon-legacy.ytd-searchbox
+    yt-icon.ytd-searchbox {
+    color: var(--background-primary);
+    font-weight: bolder;
   }
 
   tp-yt0app-drawer {
@@ -96,6 +121,9 @@
     background-color: var(--yt-spec-themed-blue);
   }
 
+  #button.yt-icon-button {
+    color: var(--cyan);
+  }
   .sbdd_b,
   .sbsb_a,
   .sbfl_b,
