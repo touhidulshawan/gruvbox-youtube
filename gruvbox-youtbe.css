@@ -101,7 +101,7 @@
     --paper-input-container-input-align: baseline;
     display: block;
     width: 100%;
-    background: var(--yt-spec-brand-background-primary);
+    background: var(--background-primary);
   }
 
   paper-toggle-button[checked]:not([disabled]) .toggle-bar.paper-toggle-button {
