@@ -1,7 +1,6 @@
 #+title: Gruvbox Theme For YouTube
 
-
-[[https://github.com/touhidulshawan/dotfiles/blob/main/.screenshots/youtube.png]]
+[[./gruvbox-youtube.png]]
 
 Gruvbox Dark theme for [[http://www.youtube.com][YouTube]] based on [[https://github.com/morhetz/gruvbox][morhetz]] gruvbox colorscheme
 
