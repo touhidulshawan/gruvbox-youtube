@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Gruvbox For Youtube
 @namespace      github.com/touhidulshawan/gruvbox-youtube
-@version        1.0.1
+@version        1.1
 @description    A gruvbox theme for Youtube
 @license        MIT
 ==/UserStyle== */
@@ -168,5 +168,9 @@
 
     #cinematics {
         display: none;
+    }
+    
+    #chips-wrapper{
+        background: var(--background-primary) !important;
     }
 }
