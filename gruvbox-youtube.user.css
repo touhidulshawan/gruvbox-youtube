@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Gruvbox For Youtube
 @namespace      github.com/touhidulshawan/gruvbox-youtube
-@version        1.1
+@version        1.2
 @description    A gruvbox theme for Youtube
 @license        MIT
 ==/UserStyle== */
@@ -169,8 +169,15 @@
     #cinematics {
         display: none;
     }
-    
+
     #chips-wrapper{
         background: var(--background-primary) !important;
     }
+    .YtSearchboxComponentInputBox{
+        background: var(--background-primary) !important;
+        border: 2px dashed var(--selection);
+    }
+.YtSearchboxComponentInputBoxDark.YtSearchboxComponentInputBoxHasFocus {
+  border-color: var(--cyan);
+}
 }
