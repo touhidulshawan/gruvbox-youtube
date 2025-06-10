@@ -10,7 +10,7 @@
 /* ==UserStyle==
 @name           Gruvbox For Youtube
 @namespace      github.com/touhidulshawan/gruvbox-youtube
-@version        2.0
+@version        2.1
 @description    A gruvbox theme for Youtube
 @license        MIT
 ==/UserStyle== */
@@ -167,9 +167,11 @@
 		display: none;
 	}
 	#content.ytd-rich-item-renderer {
-		box-shadow: 0px 12px 28px 0px rgba(0, 0, 0, 0.2), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.05) inset;
-		margin-bottom: 4px;
-		border-radius: 8px;
+		box-shadow: none;
+		border-radius: 0px;
+	}
+	#thumbnail{
+		border-radius: 4px;
 	}
 	#details.ytd-rich-grid-media {
 		padding: 6px;
